@@ -1,0 +1,39 @@
+────────────────────────────
+STEP 1️⃣ : Install Python
+────────────────────────────
+
+If Python is not installed on your system:
+
+1️⃣ Download Python from the official website:
+   👉 https://www.python.org/downloads/
+
+2️⃣ Run the installer.
+
+3️⃣ ⚠️ VERY IMPORTANT:
+   On the first screen of the installer, **before clicking "Install Now",** check this option at the bottom:
+
+   [✔] Add Python 3.x to PATH
+
+   (This allows you to use Python from the command line anywhere.)
+
+4️⃣ Then click **Install Now** and complete the installation.
+
+────────────────────────────
+STEP 2️⃣ : Install dependencies
+────────────────────────────
+
+✅ Open CMD or PowerShell inside the 'Project Jarvis' folder.
+
+Run this command:
+
+pip install -r requirements.txt
+
+(This will install: pvporcupine, pyaudio, pyttsx3, speechrecognition, etc.)
+
+────────────────────────────
+STEP 3️⃣ : Run Jarvis
+────────────────────────────
+
+In the same terminal, run:
+
+python jarvis.py
